@@ -1,0 +1,9 @@
+The libraries used are time and datetime
+
+1. The time is for the datetime to get the system generated time.
+2. first the path if the host is been added , then the rederected IP address and 
+    the website list of the link that needed to be blocked
+3. Comparing the datetime which should be between 8 am to 4 pm (working hours)
+4. Part one : This will check on the time from system , then a for loop (for website in website_list:)
+    for going from the list, the list will added with the rederected IP address.
+5. Part two : to check if the website_list is in the host file , if it is remove it between 4pm to 8am 
